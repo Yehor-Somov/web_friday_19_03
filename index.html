@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Knob plugin</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <script src="knob/jquery.knob.min.js"></script> -->
 	<script src="https://raw.githack.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js"></script>
-
 	<script src="js.js"></script>
 </head>
 <body>
-	<div class="container">
-		<input type="text" value="75" class="taho">
-		<input type="text" value="75" class="speed">
-		<input type="text" value="75" class="benz">
-	</div>
+	<div class="demo" style="color:#EEE;background:#222;height:420px;width:100%">
+
+        <div class="container">
+            <div id="hour_style">
+                <input class="hour">
+            </div>
+            <div id="minute_style">
+                <input class="minute">
+            </div>
+            <div id="second_style">
+                <input class="second" >
+            </div>
+        </div>
+    </div>
 </body>
 </html>
